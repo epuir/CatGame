@@ -19,4 +19,9 @@ public abstract class BaseItem : MonoBehaviour,IPointerClickHandler,IPointerEnte
     public abstract void OnPointerEnter(PointerEventData eventData);
 
     public abstract void OnPointerExit(PointerEventData eventData);
+
+    protected static bool OnPointerClick()
+    {
+        throw new NotImplementedException();
+    }
 }

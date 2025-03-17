@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 namespace View.Select
 {
-    public class LevelManage:MonoBehaviour
+    public class LevelManage : MonoBehaviour
     {
         private static LevelManage _instant;
         public static LevelManage Instant => _instant;
@@ -22,7 +22,7 @@ namespace View.Select
         }
         public int LevelCount = 10;
         private int _newLevel = 0;
-        
+
 
 
     }
