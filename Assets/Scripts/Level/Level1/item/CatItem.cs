@@ -9,10 +9,11 @@ using level1model;
 public class CatItem : BaseItem
 {
     public GameObject object1;
-    private bool canClick = true;
-    public float clickDelay = 0.2f; // 设置一个延时防止快速点击
+   
+   
+   
 
-
+   
     public override void OnPointerClick(PointerEventData eventData)
     {
             catdisappear1();
