@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 507192818}
   m_Layer: 0
   m_Name: "\u6905\u5B50\u732B"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -508,6 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 507192813}
+  clickDelay: 0.2
 --- !u!95 &507192818
 Animator:
   serializedVersion: 5
@@ -541,7 +542,7 @@ GameObject:
   - component: {fileID: 510776305}
   m_Layer: 0
   m_Name: "\u5E8A\uFF08\u62C6\u5206\uFF09"
-  m_TagString: Untagged
+  m_TagString: background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -705,7 +706,7 @@ GameObject:
   - component: {fileID: 602013734}
   m_Layer: 0
   m_Name: "\u88AB\u5B50\uFF08\u62C6\u5206\uFF09"
-  m_TagString: Untagged
+  m_TagString: background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -791,7 +792,7 @@ GameObject:
   - component: {fileID: 605276522}
   m_Layer: 0
   m_Name: "\u67DC\u5B50\u732B"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -935,6 +936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 605276518}
+  clickDelay: 0.2
 --- !u!1 &609845497
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +952,7 @@ GameObject:
   - component: {fileID: 609845502}
   m_Layer: 0
   m_Name: "\u7535\u8111\u732B\u52A81"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1097,6 +1099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 609845497}
+  clickDelay: 0.2
 --- !u!1 &613436273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,7 +1249,7 @@ GameObject:
   - component: {fileID: 682797778}
   m_Layer: 0
   m_Name: "\u732B\u7A9D\u732B\u52A81\u548C3"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1400,6 +1403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 682797773}
+  clickDelay: 0.2
 --- !u!1 &765528883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,7 +1419,7 @@ GameObject:
   - component: {fileID: 765528888}
   m_Layer: 0
   m_Name: "\u5E8A\u5E95\u732B\u53F3\uFF08\u52A8\u753B\u5E73\u79FB\uFF09"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1580,6 +1584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 765528883}
+  clickDelay: 0.2
 --- !u!1 &807613636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1729,7 +1734,7 @@ GameObject:
   - component: {fileID: 823427580}
   m_Layer: 0
   m_Name: "\u88AB\u5B50\u4E0B\u7684\u732B\uFF08\u5E73\u79FB\uFF09"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1901,6 +1906,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 823427575}
+  clickDelay: 0.2
 --- !u!1 &911507678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,7 +2043,7 @@ GameObject:
   - component: {fileID: 951008335}
   m_Layer: 0
   m_Name: "\u5E8A\u4E0A\u732B"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2176,6 +2182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 951008329}
+  clickDelay: 0.2
 --- !u!95 &951008335
 Animator:
   serializedVersion: 5
@@ -2660,7 +2667,7 @@ GameObject:
   - component: {fileID: 1503822185}
   m_Layer: 0
   m_Name: "\u6795\u5934\u732B\uFF08\u547C\u5438\uFF09"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2816,6 +2823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 1503822180}
+  clickDelay: 0.2
 --- !u!1 &1591201055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,7 +2976,7 @@ GameObject:
   - component: {fileID: 1722718549}
   m_Layer: 0
   m_Name: "\u8D70\u8DEF\u732B1"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3106,6 +3114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 1722718543}
+  clickDelay: 0.2
 --- !u!95 &1722718548
 Animator:
   serializedVersion: 5
@@ -3365,7 +3374,7 @@ GameObject:
   - component: {fileID: 1890274270}
   m_Layer: 0
   m_Name: "\u80CC\u666F"
-  m_TagString: Untagged
+  m_TagString: background
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3776,7 +3785,7 @@ GameObject:
   - component: {fileID: 2138548312}
   m_Layer: 0
   m_Name: "\u5E8A\u5E95\u732B\u5DE6\uFF08\u52A8\u753B\u5E73\u79FB\uFF09"
-  m_TagString: Untagged
+  m_TagString: CatItemTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3941,3 +3950,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object1: {fileID: 2138548307}
+  clickDelay: 0.2
