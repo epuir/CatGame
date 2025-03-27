@@ -6,8 +6,10 @@ namespace level1model
     {
     public class Level1Model : BaseLevelModel<Level1Model>
     {
-        public  int CatModel = 0;
-        public  float time = 0;
-       
+        public  float CatModel = 0f;
+        public  float time = 0f;
+        public float AllTime = Time.deltaTime;
+        
     } 
+    
 }

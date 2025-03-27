@@ -28,6 +28,7 @@ public class RelayControl : MonoBehaviour
                     // 如果点击的是其他物体
                     Debug.Log("Miss，time +5");
                     Level1Model.Instance.time += 5f;
+                    Level1Model.Instance.AllTime += 5f;
                 }
             }
             else
@@ -35,6 +36,7 @@ public class RelayControl : MonoBehaviour
                 // 没有点击任何物体，认为点击空白区域
                 Debug.Log("Miss，time +5");
                 Level1Model.Instance.time += 5f;
+                Level1Model.Instance.AllTime += 5f;
             }
         }
     }

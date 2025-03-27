@@ -7,7 +7,7 @@ public class Level1Controll3 : MonoBehaviour
 {
     public List<GameObject> childObjects = new List<GameObject>();
 
-   
+
     private StageConfig[] stages = new StageConfig[]
     {
         new StageConfig(30, 1, 3),
@@ -17,10 +17,11 @@ public class Level1Controll3 : MonoBehaviour
 
     void Start()
     {
+        
         InitializeObjects();
         StartCoroutine(StageManager());
     }
-
+    
     void InitializeObjects()
     {
         foreach (var obj in childObjects)
@@ -28,13 +29,13 @@ public class Level1Controll3 : MonoBehaviour
             obj.SetActive(false);
         }
     }
-
+    
     IEnumerator StageManager()
     {
-        yield return new WaitForSeconds(30);
+        yield return new WaitForSeconds(30); 
         foreach (var stage in stages)
         {
-
+            Level1Model.Instance.time = 0;
             while (Level1Model.Instance.time < stage.duration)
             {
                 // 等待间隔时间
